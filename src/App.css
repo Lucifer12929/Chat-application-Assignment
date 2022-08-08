@@ -1,0 +1,24 @@
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  
+}
+
+body {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 350px;
+  height: 80vh;
+  margin-top: 10%;
+  border:2px solid black;
+  padding-bottom: 10%;
+  background: rgba(2, 164, 200, 0.061);
+}

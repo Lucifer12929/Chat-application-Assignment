@@ -1,0 +1,56 @@
+
+  .user_name {
+    font-size: 70%;
+    color: grey;
+  }
+  .conn_subheading {
+    font-size: 90%;
+    font-weight: 700;
+    margin-top: 3px;
+  }
+  .headingFull {
+    font-size: 120%;
+    font-weight: 700;
+  }
+  
+  .newConnections {
+    padding: 1rem;
+    padding-right: 0;
+   
+  }
+  
+  .conn_Heading {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.8rem;
+  }
+  
+  .conn_list {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x:auto;
+    margin-bottom: 0.2rem;
+    padding: 1rem;
+    gap: 0.3rem;
+
+   
+  }
+  
+  .conn_list::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background-color: wheat;
+    display: none;
+    
+  }
+  .conn_list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .conn_user {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 25%;
+    gap: 0.5rem;
+  }
+  
